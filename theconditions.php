@@ -39,3 +39,24 @@ $password = "allan123kkei";
     }else{
         echo "A";
     }
+
+    echo "<hr>";
+    $bettingNumber = 3;
+    switch ($bettingNumber){
+        case 1:
+            echo "Oooops!!! You lost";
+            break;
+        case 2:
+            echo "Opheges you are in lost";
+            break;
+        case 3:
+            echo "Congratulations!! You won!!";
+            break;
+        case 4:
+            echo "Oooops!!! You lost";
+            break;
+        default:
+            echo "enter a number from 1 - 4 to bet";
+    }
+    echo "<hr>";
+
